@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">UCASAL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Universidad Católica de Salta</string>
+    <string name="nav_header_subtitle">wwww.ucasal.edu.ar</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="arrayContactos" tools:ignore="ExtraTranslation">
+        <item>h.</item>
+        <item>Información y ayuda</item>
+        <item>Depto Alumnos</item>
+        <item>Ingeniería</item>
+        <item>Artes y Ciencias</item>
+        <item>Arquitectura y Urbanismo</item>
+        <item>Ciencias Jurídicas</item>
+        <item>Economía y Administración</item>
+        <item>Cs. Agrarias y Veterinarias</item>
+        <item>Turismo</item>
+        <item>Biblioteca</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sedes">Sedes</string>
+    <string name="title_activity_carreras">Carreras</string>
+    <string name="google_maps_key">AIzaSyDrkdICFVUWOhldokT3nrcbwAc_A1DH7hM</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_contacto2">Contacto2</string>
+    <string name="title_activity_descripcion_carrera">Descripcion de la carrera</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_carreras"
+            android:icon="@drawable/ic_menu_carreras"
+            android:title="Carreras" />
+        <item
+            android:id="@+id/nav_sedes"
+            android:icon="@drawable/ic_menu_sedes"
+            android:title="Sedes" />
+    </group>
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/ic_menu_contacto"
+                android:title="Contacto" />
+            <item
+                android:id="@+id/nav_preinscripcion"
+                android:icon="@drawable/ic_menu_preinscripcion"
+                android:title="Preinscripción" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_call"
+        android:icon="@drawable/ic_call"
+        android:title="Llamar por teléfono"/>
+
+    <item
+        android:id="@+id/action_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Enviar mensaje"/>
+
+    <item
+        android:id="@+id/action_mail"
+        android:icon="@drawable/ic_mail"
+        android:title="Enviar correo"/>
+</menu>
