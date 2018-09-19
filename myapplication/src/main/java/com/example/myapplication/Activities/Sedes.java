@@ -39,7 +39,7 @@ public class Sedes extends FragmentActivity implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        
+
 
         // Add a marker in Sydney and move the camera
         LatLng saltacap = new LatLng(-24.740181274624742, -65.39247201661703);
