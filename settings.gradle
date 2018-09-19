@@ -1,1 +1,1 @@
-include ':app', ':ucasapp'
+include ':app', ':myapplication'
