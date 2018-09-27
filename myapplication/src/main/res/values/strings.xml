@@ -28,5 +28,6 @@
     <string name="title_activity_contacto">Contacto</string>
     <string name="title_activity_contacto2">Contacto2</string>
     <string name="title_activity_descripcion_carrera">Descripcion de la carrera</string>
+    <string name="title_activity_acd">acd</string>
 
 </resources>

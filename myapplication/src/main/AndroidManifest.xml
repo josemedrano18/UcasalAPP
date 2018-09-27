@@ -9,7 +9,7 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -52,7 +52,13 @@
             android:name=".Activities.DescripcionCarrera"
             android:label="@string/title_activity_descripcion_carrera"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activities.Contacto"></activity>
+        <activity android:name=".Activities.Contacto" />
+        <activity
+            android:name=".Activities.acd"
+            android:label="@string/title_activity_acd"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.Carreras2" />
+        <activity android:name=".Activities.Carreras3"></activity>
     </application>
 
 </manifest>

@@ -14,7 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import com.example.myapplication.Fragments.ListaCarreras;
 import com.example.myapplication.R;
 
 public class MainActivity extends AppCompatActivity
@@ -75,12 +75,11 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        boolean fragmentTransaction = false;
-        Fragment fragment = null;
+
         int id = item.getItemId();
 
         if (id == R.id.nav_carreras) {
-            Intent intent = new Intent(MainActivity.this, Carreras.class );
+            Intent intent = new Intent(MainActivity.this, Carreras3.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_sedes) {
@@ -108,4 +107,6 @@ public class MainActivity extends AppCompatActivity
         return true;
 //    }
     }
+
+
 }
