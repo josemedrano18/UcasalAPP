@@ -29,5 +29,24 @@
     <string name="title_activity_contacto2">Contacto2</string>
     <string name="title_activity_descripcion_carrera">Descripcion de la carrera</string>
     <string name="title_activity_acd">acd</string>
+    <string name="action_sync">Sincronizar</string>
+    <string name="account_type">com.example.myapplication.account</string>
+    <string name="provider_authority">com.example.myapplication</string>
+    <string name="empty_list">No hay datos</string>
+    <string name="nomcarrera_title">Nombre</string>
+    <string name="ejecarrera_title">Eje Temático</string>
+    <string name="duracion_title">Duración</string>
+    <string name="perfil_title">Perfil</string>
+    <string name="titulo_title">Título</string>
+    <string name="plan_title">Plan de Estudio</string>
+    <string name="salida_title">Salida</string>
+    <string name="requisitos_title">Requisitos</string>
+    <string name="curso_title">Curso</string>
+
+    <string-array name="ejestematicos">
+        <item>Ciecnias Sociales</item>
+        <item>Ciencias Jurídicas</item>
+        <item>Ciencias Exactas</item>
+    </string-array>
 
 </resources>
